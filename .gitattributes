@@ -1,0 +1,6 @@
+# Preserve upstream and captured research bytes; whitespace is part of their provenance.
+Sources/ArchiveCore/include/archive.h -whitespace
+Sources/ArchiveCore/include/archive_entry.h -whitespace
+Tests/Fixtures/libarchive/** -whitespace
+docs/research/raw/** -whitespace
+docs/research/reference-fixtures/** -whitespace
