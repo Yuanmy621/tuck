@@ -1,0 +1,10 @@
+.build/
+build/
+.local/
+Tests/output/
+Tests/Fixtures/libarchive/*.7z
+Tests/Fixtures/libarchive/*.rar
+__pycache__/
+.DS_Store
+*.dmg
+*.app/

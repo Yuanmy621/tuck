@@ -1,0 +1,116 @@
+[
+  {
+    "bundle_path": "Contents/MacOS/7z.so",
+    "bytes": 2158192,
+    "sha256": "857aa6d326b68ea8afc36e3d09ff357e3bb8fe6065e8c2e84b0e920be636ff72",
+    "file": "Mach-O 64-bit bundle x86_64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/Codecs/Rar.so",
+    "bytes": 122752,
+    "sha256": "e5cd89e11fffd36a7556d8ce3afdf096e0eafb34f0d611eb51d090cb36760372",
+    "file": "Mach-O 64-bit bundle x86_64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/Keka",
+    "bytes": 1454160,
+    "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/Keka (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/Keka (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/keka7z",
+    "bytes": 533168,
+    "sha256": "f002cc455f430e211ebafe7c115fb3bf191eec019340e43376ed5fee4af7c810",
+    "file": "Mach-O 64-bit executable x86_64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/keka7zz",
+    "bytes": 5785872,
+    "sha256": "2885552cce94f80fd95fac93eb5ecc4fdb19f3f7b7fa8180930bb71cbb0387d2",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/keka7zz (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/keka7zz (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekabrotli",
+    "bytes": 1900720,
+    "sha256": "e0db466544239b126da18064191a5c7020b58c91bf770641fd5410d5a333519e",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekabrotli (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekabrotli (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekakwet",
+    "bytes": 202608,
+    "sha256": "59815df526cf492ea627427aee5d10e5fe9eb15702769c77499ded2adbbea7ae",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekakwet (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekakwet (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekalrzip",
+    "bytes": 541600,
+    "sha256": "2781b2324e6f2f82787652a41efd1630b13341cc71dcd2b9cb86403c2b876c79",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekalrzip (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekalrzip (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekalz4",
+    "bytes": 503472,
+    "sha256": "33eed05fc6ccca68b88bd89a6046023e70c053b7b3c426c9467e3d0ffe671949",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekalz4 (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekalz4 (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekalzip",
+    "bytes": 327312,
+    "sha256": "fe0c92486c86bb204c517423ca3a7cf2137d20c4d62bd5aab40e0cb8751b3ab3",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekalzip (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekalzip (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekapbzip2",
+    "bytes": 243856,
+    "sha256": "b76d610f8ecb18a695b03a4311d940c0fcfdaa6f69d3fb7979b986638cf408df",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekapbzip2 (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekapbzip2 (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekapigz",
+    "bytes": 389440,
+    "sha256": "8fbb35c5cb81be0e1a16a03dc29bfbbad107191f0e6908354d8b13c54112de69",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekapigz (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekapigz (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekaplzip",
+    "bytes": 410128,
+    "sha256": "0c55eba912c678eb4e13cb18cd1e92fe7f34d2de0f1b92abc81be5899e5e4f83",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaplzip (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaplzip (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekasnzip",
+    "bytes": 238336,
+    "sha256": "6decc666314ee06ed348a951698605bc79d8d42314e3cb5dbc8a91bb6ceb7a53",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekasnzip (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekasnzip (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekatar",
+    "bytes": 2089008,
+    "sha256": "5e479761c4d5e7ca27b951825d7a0d4506a33336f71ed64f833b32c06bec61f1",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekatar (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekatar (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekaunar",
+    "bytes": 3469808,
+    "sha256": "f0b696abc9537b4af76f69b2d2ad5cc7693e4dedf5e0cf0faa715d51690058e8",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaunar (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaunar (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekaunrar",
+    "bytes": 835152,
+    "sha256": "88d5f1f5dba9a6ebb3766122edad322bf2a2c6997b2905338fbbdea57e3ac886",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaunrar (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaunrar (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekaxz",
+    "bytes": 629248,
+    "sha256": "b1a5a66dcb759db8a99bebb7655b7da469f63aa65a7607ea88dae4718a6b9680",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaxz (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekaxz (for architecture arm64):\tMach-O 64-bit executable arm64"
+  },
+  {
+    "bundle_path": "Contents/MacOS/kekazstd",
+    "bytes": 1585344,
+    "sha256": "310a88bb72475f7eba74a55d5254dc205ae203a3521c7d3b7441f35edee28851",
+    "file": "Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/Keka/Keka.app/Contents/MacOS/kekazstd (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/Keka/Keka.app/Contents/MacOS/kekazstd (for architecture arm64):\tMach-O 64-bit executable arm64"
+  }
+]

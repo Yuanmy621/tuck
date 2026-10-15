@@ -1,0 +1,18 @@
+{
+  "method": "CUA Finder double click on 双击解压示例.zip; app was not running before open",
+  "application": "/Users/ymy/Applications/轻压.app",
+  "bundle_id": "local.ymy.MacArchive",
+  "output": "/Users/ymy/Project/MacArchive/Examples/双击解压示例",
+  "utf8_content_verified": true,
+  "original_zip_preserved": true,
+  "executable_sha256": "3ed333c4f5740bd6ec7da7d39e89fe35d4ca80b26c455ed55b390c9534606931",
+  "native_compress_ui": {
+    "output": "/Users/ymy/Project/MacArchive/Examples/双击解压示例/界面压缩测试.zip",
+    "independent_zip_reader_verified": true,
+    "source_bytes_equal": true
+  },
+  "final_output": "/Users/ymy/Project/MacArchive/Examples/双击解压示例 (2)",
+  "final_executable_sha256": "c965c01270994ac5efac502ee68e39dc90ec34e992f4b28a5de6c2218262543c",
+  "final_double_click_retested": true,
+  "existing_output_preserved": true
+}

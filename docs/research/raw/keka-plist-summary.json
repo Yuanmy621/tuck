@@ -1,0 +1,1221 @@
+{
+  "CFBundleIdentifier": "com.aone.keka",
+  "CFBundleShortVersionString": "1.6.8",
+  "CFBundleVersion": "5748",
+  "CFBundleDocumentTypes": [
+    {
+      "CFBundleTypeExtensions": [
+        "7z"
+      ],
+      "CFBundleTypeIconFile": "7z.icns",
+      "CFBundleTypeName": "7Z Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "brown",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "org.7-zip.7-zip-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "lzma"
+      ],
+      "CFBundleTypeIconFile": "lzma.icns",
+      "CFBundleTypeName": "LZMA Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "org.tukaani.lzma-archive",
+        "public.lzma-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "lzo"
+      ],
+      "CFBundleTypeIconFile": "lzo.icns",
+      "CFBundleTypeName": "LZOP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lzop-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true,
+      "UseFullTextOnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tzo"
+      ],
+      "CFBundleTypeIconFile": "tzo.icns",
+      "CFBundleTypeName": "LZOP Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lzop-tar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "lz"
+      ],
+      "CFBundleTypeIconFile": "lz.icns",
+      "CFBundleTypeName": "LZIP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "rose",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lzip-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true,
+      "UseFullTextOnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tlz"
+      ],
+      "CFBundleTypeIconFile": "tlz.icns",
+      "CFBundleTypeName": "LZIP Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "rose",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lzip-tar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "lz4"
+      ],
+      "CFBundleTypeIconFile": "lz4.icns",
+      "CFBundleTypeName": "LZ4 Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lz4-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true,
+      "UseFullTextOnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tlz4"
+      ],
+      "CFBundleTypeIconFile": "lz4.icns",
+      "CFBundleTypeName": "LZ4 Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lz4-tar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "zip"
+      ],
+      "CFBundleTypeIconFile": "zip.icns",
+      "CFBundleTypeName": "ZIP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "orange",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.pkware.zip-archive",
+        "public.zip-archive",
+        "public.zip-archive.first-part"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "zipx"
+      ],
+      "CFBundleTypeIconFile": "zip.icns",
+      "CFBundleTypeName": "ZIPX Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "orange",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.winzip.zipx-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "xz"
+      ],
+      "CFBundleTypeIconFile": "xz.icns",
+      "CFBundleTypeName": "XZ Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "aqua",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "org.tukaani.xz-archive",
+        "public.xz-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "txz"
+      ],
+      "CFBundleTypeIconFile": "txz.icns",
+      "CFBundleTypeName": "XZ Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "aqua",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "org.tukaani.tar-xz-archive",
+        "org.tukaani.xz-tar-archive",
+        "public.tar-xz-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "br"
+      ],
+      "CFBundleTypeIconFile": "br.icns",
+      "CFBundleTypeName": "Brotli Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "brightorange",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.google.brotli-archive",
+        "public.brotli-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "XML",
+      "NeedsTarball": true,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tbr"
+      ],
+      "CFBundleTypeIconFile": "tbr.icns",
+      "CFBundleTypeName": "Brotli Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "brightorange",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.google.brotli-tar-archive",
+        "public.brotli-tar-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "XML"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "zst"
+      ],
+      "CFBundleTypeIconFile": "zst.icns",
+      "CFBundleTypeName": "Zstandard Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "brightblue",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.facebook.zstandard-archive",
+        "public.zstandard-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "XML",
+      "NeedsTarball": true,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tzst"
+      ],
+      "CFBundleTypeIconFile": "tzst.icns",
+      "CFBundleTypeName": "Zstandard Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "brightblue",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.facebook.zstandard-tar-archive",
+        "public.zstandard-tar-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "XML"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "rar"
+      ],
+      "CFBundleTypeIconFile": "rar.icns",
+      "CFBundleTypeName": "RAR Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "violet",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.rarlab.rar-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "r00",
+        "r01",
+        "r02",
+        "r03",
+        "r04",
+        "r05",
+        "r06",
+        "r07",
+        "r08",
+        "r09",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r21",
+        "r22",
+        "r23",
+        "r24",
+        "r25",
+        "r26",
+        "r27",
+        "r28",
+        "r29",
+        "r30",
+        "r31",
+        "r32",
+        "r33",
+        "r34",
+        "r35",
+        "r36",
+        "r37",
+        "r38",
+        "r39",
+        "r40",
+        "r41",
+        "r42",
+        "r43",
+        "r44",
+        "r45",
+        "r46",
+        "r47",
+        "r48",
+        "r49",
+        "r50",
+        "r51",
+        "r52",
+        "r53",
+        "r54",
+        "r55",
+        "r56",
+        "r57",
+        "r58",
+        "r59",
+        "r60",
+        "r61",
+        "r62",
+        "r63",
+        "r64",
+        "r65",
+        "r66",
+        "r67",
+        "r68",
+        "r69",
+        "r70",
+        "r71",
+        "r72",
+        "r73",
+        "r74",
+        "r75",
+        "r76",
+        "r77",
+        "r78",
+        "r79",
+        "r80",
+        "r81",
+        "r82",
+        "r83",
+        "r84",
+        "r85",
+        "r86",
+        "r87",
+        "r88",
+        "r89",
+        "r90",
+        "r91",
+        "r92",
+        "r93",
+        "r94",
+        "r95",
+        "r96",
+        "r97",
+        "r98",
+        "r99"
+      ],
+      "CFBundleTypeIconFile": "rxx.icns",
+      "CFBundleTypeName": "RAR Legacy Archive Volume",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "violet",
+      "IsMultiVolume": "YES",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018",
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024",
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030",
+        "031",
+        "032",
+        "033",
+        "034",
+        "035",
+        "036",
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042",
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "048",
+        "049",
+        "050",
+        "051",
+        "052",
+        "053",
+        "054",
+        "055",
+        "056",
+        "057",
+        "058",
+        "059",
+        "060",
+        "061",
+        "062",
+        "063",
+        "064",
+        "065",
+        "066",
+        "067",
+        "068",
+        "069",
+        "070",
+        "071",
+        "072",
+        "073",
+        "074",
+        "075",
+        "076",
+        "077",
+        "078",
+        "079",
+        "080",
+        "081",
+        "082",
+        "083",
+        "084",
+        "085",
+        "086",
+        "087",
+        "088",
+        "089",
+        "090",
+        "091",
+        "092",
+        "093",
+        "094",
+        "095",
+        "096",
+        "097",
+        "098",
+        "099"
+      ],
+      "CFBundleTypeIconFile": "vol.icns",
+      "CFBundleTypeName": "Generic Archive Volume",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "IsMultiVolume": "YES",
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "bz2",
+        "bzip2"
+      ],
+      "CFBundleTypeIconFile": "bz2.icns",
+      "CFBundleTypeName": "BZIP2 Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "blue",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.bzip2-archive",
+        "org.bzip.bzip2-archive",
+        "com.redhat.bzip2-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true,
+      "UseFullTextOnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tbz2",
+        "tbzip2",
+        "tb2"
+      ],
+      "CFBundleTypeIconFile": "tbz2.icns",
+      "CFBundleTypeName": "BZIP2 Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "blue",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.tar-bzip2-archive",
+        "org.bzip.bzip2-tar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "bz",
+        "bzip"
+      ],
+      "CFBundleTypeIconFile": "bz.icns",
+      "CFBundleTypeName": "BZIP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "blue",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.bzip-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tbz",
+        "tbzip"
+      ],
+      "CFBundleTypeIconFile": "tbz.icns",
+      "CFBundleTypeName": "BZIP Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "blue",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "gz",
+        "gzip"
+      ],
+      "CFBundleTypeIconFile": "gz.icns",
+      "CFBundleTypeName": "GZIP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "green",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "org.gnu.gnu-zip-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true,
+      "UseFullTextOnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tgz",
+        "tgzip",
+        "tar-gz"
+      ],
+      "CFBundleTypeIconFile": "tgz.icns",
+      "CFBundleTypeName": "GZIP Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "green",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "org.gnu.gnu-zip-tar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tar"
+      ],
+      "CFBundleTypeIconFile": "tar.icns",
+      "CFBundleTypeName": "TAR Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "yellow",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.tar-archive",
+        "org.gnu.gnu-tar-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "lrz"
+      ],
+      "CFBundleTypeIconFile": "lrz.icns",
+      "CFBundleTypeName": "LRZIP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lrzip-archive",
+        "org.kolivas.lrzip-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tlrz"
+      ],
+      "CFBundleTypeIconFile": "lrz.icns",
+      "CFBundleTypeName": "LRZIP Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.lrzip-tar-archive",
+        "org.kolivas.lrzip-tar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cpio"
+      ],
+      "CFBundleTypeIconFile": "cpio.icns",
+      "CFBundleTypeName": "CPIO Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.cpio-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cpgz"
+      ],
+      "CFBundleTypeIconFile": "cpgz.icns",
+      "CFBundleTypeName": "CPGZ Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.bom-compressed-cpio"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "pax"
+      ],
+      "CFBundleTypeIconFile": "pax.icns",
+      "CFBundleTypeName": "PAX Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "cx.c3.pax-archive",
+        "public.pax-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "AlternateIconName": "dmg",
+      "CFBundleTypeExtensions": [
+        "dmg"
+      ],
+      "CFBundleTypeName": "DMG Disk Image",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "IconVariant": "disk",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.apple.disk-image",
+        "com.apple.disk-image-smi"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "AlternateIconName": "iso",
+      "CFBundleTypeExtensions": [
+        "iso"
+      ],
+      "CFBundleTypeName": "ISO Disk Image",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "IconVariant": "disk",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "public.iso-image"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "lha",
+        "lzh"
+      ],
+      "CFBundleTypeIconFile": "lha.icns",
+      "CFBundleTypeName": "LHA Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "public.archive.lha"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "exe"
+      ],
+      "CFBundleTypeIconFile": "exe.icns",
+      "CFBundleTypeName": "Windows EXE File",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.microsoft.windows-executable"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cab"
+      ],
+      "CFBundleTypeIconFile": "cab.icns",
+      "CFBundleTypeName": "Windows Cabinet File",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.microsoft.cab-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "msi"
+      ],
+      "CFBundleTypeIconFile": "msi.icns",
+      "CFBundleTypeName": "Windows Installer Package",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.microsoft.msi-installer"
+      ],
+      "LSTypeIsPackage": false,
+      "NSPersistentStoreTypeKey": "XML"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "wim"
+      ],
+      "CFBundleTypeIconFile": "wim.icns",
+      "CFBundleTypeName": "WIM Disk Image",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.microsoft.wim-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cbr"
+      ],
+      "CFBundleTypeIconFile": "cbr.icns",
+      "CFBundleTypeName": "Comic Book RAR Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "violet",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cbz"
+      ],
+      "CFBundleTypeIconFile": "cbz.icns",
+      "CFBundleTypeName": "Comic Book ZIP Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "orange",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "mdz"
+      ],
+      "CFBundleTypeName": "Commodore Amiga MOD Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "ipa"
+      ],
+      "CFBundleTypeName": "iOS App",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.apple.iTunes.ipa"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "jar"
+      ],
+      "CFBundleTypeName": "JAR Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.sun.java-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "war"
+      ],
+      "CFBundleTypeName": "WAR Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.sun.java-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "cpt"
+      ],
+      "CFBundleTypeName": "Compact Pro Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.cyclos.cpt-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "spk"
+      ],
+      "CFBundleTypeName": "Synology Package Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.synology.spk-archive",
+        "cx.c3.arc-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "apk",
+        "xapk"
+      ],
+      "CFBundleTypeIconFile": "apk.icns",
+      "CFBundleTypeMIMETypes": [
+        "application/vnd.android.package-archive"
+      ],
+      "CFBundleTypeName": "Android Application Package",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "orange",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "public.archive.apk",
+        "com.android.package-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "xpi"
+      ],
+      "CFBundleTypeIconFile": "zip.icns",
+      "CFBundleTypeMIMETypes": [
+        "application/x-xpinstall"
+      ],
+      "CFBundleTypeName": "Cross-Platform Installer Module (XPI)",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "appx",
+        "appxbundle"
+      ],
+      "CFBundleTypeIconFile": "appx.icns",
+      "CFBundleTypeMIMETypes": [
+        "application/vns.ms-appx"
+      ],
+      "CFBundleTypeName": "APPX Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IconVariant": "orange",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.microsoft.appx-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "safariextz"
+      ],
+      "CFBundleTypeMIMETypes": [
+        "application/x-safari-extension"
+      ],
+      "CFBundleTypeName": "Safari extension",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "ace"
+      ],
+      "CFBundleTypeIconFile": "ace.icns",
+      "CFBundleTypeName": "ACE Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.winace.ace-archive"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "xip"
+      ],
+      "CFBundleTypeName": "XIP Secure Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "xar"
+      ],
+      "CFBundleTypeName": "XAR Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.xar-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "epub",
+        "ibook",
+        "ibooks",
+        "mobi",
+        "azw",
+        "kepub"
+      ],
+      "CFBundleTypeName": "Electronic Book",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate"
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "aar",
+        "yaa"
+      ],
+      "CFBundleTypeIconFile": "aar.icns",
+      "CFBundleTypeName": "Apple Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.archive"
+      ],
+      "LSTypeIsPackage": false,
+      "OnTab": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "aea"
+      ],
+      "CFBundleTypeIconFile": "aar.icns",
+      "CFBundleTypeName": "Apple Encrypted Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.apple.encrypted-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "sqsh",
+        "sqfs",
+        "sfs",
+        "squashfs"
+      ],
+      "CFBundleTypeIconFile": "sqsh.icns",
+      "CFBundleTypeName": "Squashfs Filesystem Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.plougher.squashfs-archive"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "wpress"
+      ],
+      "CFBundleTypeIconFile": "wpress.icns",
+      "CFBundleTypeName": "WordPress All-in-One Backup",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSItemContentTypes": [
+        "com.servmask.wpress-backup"
+      ],
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "z"
+      ],
+      "CFBundleTypeName": "InstallShield 3 Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "sz",
+        "snappy",
+        "snz"
+      ],
+      "CFBundleTypeIconFile": "sz.icns",
+      "CFBundleTypeName": "Snappy Archive",
+      "CFBundleTypeRole": "Viewer",
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false,
+      "NeedsTarball": true
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "tsz",
+        "tsnz"
+      ],
+      "CFBundleTypeIconFile": "sz.icns",
+      "CFBundleTypeName": "Snappy Tarball Archive",
+      "CFBundleTypeRole": "Viewer",
+      "IsTarball": true,
+      "LSHandlerRank": "Default",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "iwa"
+      ],
+      "CFBundleTypeName": "Apple iWork Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "AlternateIconName": "delta",
+      "CFBundleTypeExtensions": [
+        "deltaskin"
+      ],
+      "CFBundleTypeIconFile": "deltaskin.icns",
+      "CFBundleTypeName": "Delta Controller Skin",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "IconVariant": "violet",
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "com.rileytestut.delta.skin"
+      ]
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "wacz"
+      ],
+      "CFBundleTypeName": "Zipped Web Archive Collection",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "kextraction"
+      ],
+      "CFBundleTypeIconFile": "Keka-Extraction-Package.icns",
+      "CFBundleTypeName": "Keka Extraction Package",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "ExcludeFromExtensions": true,
+      "LSHandlerRank": "Owner",
+      "LSItemContentTypes": [
+        "com.aone.keka-extraction"
+      ],
+      "LSTypeIsPackage": 0
+    },
+    {
+      "CFBundleTypeExtensions": [
+        "*"
+      ],
+      "CFBundleTypeName": "Archive",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "ExcludeFromExtensions": true,
+      "LSHandlerRank": "Alternate",
+      "LSTypeIsPackage": false
+    },
+    {
+      "CFBundleTypeName": "Data",
+      "CFBundleTypeRole": "Viewer",
+      "ExcludeFromDefaults": true,
+      "ExcludeFromExtensions": true,
+      "LSHandlerRank": "Alternate",
+      "LSItemContentTypes": [
+        "public.data"
+      ]
+    }
+  ],
+  "NSServices": [
+    {
+      "NSKeyEquivalent": {
+        "default": "^$K"
+      },
+      "NSMenuItem": {
+        "default": "Keka/Send to Keka"
+      },
+      "NSMessage": "serviceHandle",
+      "NSPortName": "Keka",
+      "NSRequiredContext": {
+        "NSTextContent": "FilePath"
+      },
+      "NSSendTypes": [
+        "NSFilenamesPboardType"
+      ]
+    },
+    {
+      "NSKeyEquivalent": {
+        "default": "^$X"
+      },
+      "NSMenuItem": {
+        "default": "Keka/Extract using Keka"
+      },
+      "NSMessage": "serviceExtract",
+      "NSPortName": "Keka",
+      "NSRequiredContext": {
+        "NSTextContent": "FilePath"
+      },
+      "NSSendTypes": [
+        "NSFilenamesPboardType"
+      ]
+    },
+    {
+      "NSKeyEquivalent": {
+        "default": "^$C"
+      },
+      "NSMenuItem": {
+        "default": "Keka/Compress using Keka"
+      },
+      "NSMessage": "serviceCompress",
+      "NSPortName": "Keka",
+      "NSRequiredContext": {
+        "NSTextContent": "FilePath"
+      },
+      "NSSendTypes": [
+        "NSFilenamesPboardType"
+      ]
+    }
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "com.aone.keka",
+      "CFBundleURLSchemes": [
+        "keka"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+
+* Keka has [1mno file access[0m to "[1m/Users/ymy/Project/rea[0m"
+
+File Access is needed for Keka to work: [1mhttps://github.com/aonez/Keka/wiki/Sandbox#customization[0m
+

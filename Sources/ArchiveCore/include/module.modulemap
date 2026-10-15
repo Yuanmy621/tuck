@@ -1,0 +1,4 @@
+module ArchiveCore {
+    header "ArchiveCore.h"
+    export *
+}

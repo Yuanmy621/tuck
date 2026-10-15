@@ -1,0 +1,8 @@
+{
+  "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/keka7zz",
+  "arguments": [
+    "--help"
+  ],
+  "working_directory": "/Users/ymy/Project/MacArchive/Evidence",
+  "timeout_ms": 5000
+}

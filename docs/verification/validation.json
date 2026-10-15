@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "name": "zip: independent-reader and byte-exact roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "tarGzip: independent-reader and byte-exact roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "extraction collision preserves existing result",
+      "status": "passed"
+    },
+    {
+      "name": "compression never overwrites existing destination",
+      "status": "passed"
+    },
+    {
+      "name": "ZIP produced by Python extracts correctly",
+      "status": "passed"
+    },
+    {
+      "name": "standalone gz stream keeps original filename",
+      "status": "passed"
+    },
+    {
+      "name": "standalone gzip stream keeps original filename",
+      "status": "passed"
+    },
+    {
+      "name": "standalone bz stream keeps original filename",
+      "status": "passed"
+    },
+    {
+      "name": "standalone bz2 stream keeps original filename",
+      "status": "passed"
+    },
+    {
+      "name": "standalone xz stream keeps original filename",
+      "status": "passed"
+    },
+    {
+      "name": "reject parent-traversal; no partial output",
+      "status": "passed"
+    },
+    {
+      "name": "reject absolute-path; no partial output",
+      "status": "passed"
+    },
+    {
+      "name": "reject windows-drive; no partial output",
+      "status": "passed"
+    },
+    {
+      "name": "reject windows-traversal; no partial output",
+      "status": "passed"
+    },
+    {
+      "name": "reject escaping symlink and preserve boundary",
+      "status": "passed"
+    },
+    {
+      "name": "safe relative symlink roundtrip",
+      "status": "passed"
+    },
+    {
+      "name": "malformed input fails without output residue",
+      "status": "passed"
+    },
+    {
+      "name": "cancelled operation creates no output",
+      "status": "passed"
+    },
+    {
+      "name": "non-directory extraction destination rejected",
+      "status": "passed"
+    },
+    {
+      "name": "encrypted ZIP: missing, wrong and correct passwords",
+      "status": "passed"
+    },
+    {
+      "name": "official libarchive interoperability: test_read_format_7zip_copy.7z",
+      "status": "passed"
+    },
+    {
+      "name": "official libarchive interoperability: test_read_format_7zip_lzma1.7z",
+      "status": "passed"
+    },
+    {
+      "name": "official libarchive interoperability: test_read_format_rar_subblock.rar",
+      "status": "passed"
+    },
+    {
+      "name": "official libarchive interoperability: test_read_format_rar.rar",
+      "status": "passed"
+    }
+  ],
+  "count": 24,
+  "elapsed_seconds": 1.142,
+  "executable": "/Users/ymy/Applications/轻压.app/Contents/MacOS/MacArchive"
+}

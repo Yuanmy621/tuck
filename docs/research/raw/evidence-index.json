@@ -1,0 +1,202 @@
+{
+  "rea-7zProgress.json": {
+    "evidence_id": "ev_eec0e941acb1b8f2f7123ec1805f6bcfe21bba8f6e6326df7e1bd22aee94af8b",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-cancelTask.json": {
+    "evidence_id": "ev_26ff6293fc49f9e446cb9e6196bd12e4981d638dc3c54ef322780dbe05898863",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-compression7z.json": {
+    "evidence_id": "ev_e9396a6c714f6f224b54043fd0ecf1578e18b377f55b14ddcac1fa44933bc013",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-dmg-inventory.json": {
+    "evidence_id": "ev_a15401b3db0a17444ff28946d42a86e757568fdbdfa101c9f9705026b11a6ba3",
+    "operation": "inspect_artifact",
+    "subject": {
+      "name": "Keka.dmg",
+      "digest": {
+        "sha256": "25a4daf0492b7e3bca043c8a7ba1ae97507dd8dbf872811daf74b01f16a12125"
+      },
+      "local_path": "/Users/ymy/Project/MacArchive/Evidence/source-artifacts/Keka.dmg",
+      "format": "dmg",
+      "architecture": null
+    }
+  },
+  "rea-engine-help.json": {
+    "evidence_id": "ev_987ce253d64f98f82a3256658ffdc8f30ca7206f90fc4f584c367c01d6859e9f",
+    "operation": "capture_process_scenario",
+    "subject": null
+  },
+  "rea-engineChoice7z.json": {
+    "evidence_id": "ev_b7ff0fbb3e136abce0ee3c534a1c2e9ea7f5d7dee7ea186b9b670cb71acf9736",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-extraction7z.json": {
+    "evidence_id": "ev_c7334ba0c1aac7163798f81919897e314775e328b32a769073a6c038d9c20876",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-launchRouting.json": {
+    "evidence_id": "ev_baf276154cb54e0800e5211570e05bdbe2f903361fc7be42d840926103bc879d",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-macho.json": {
+    "evidence_id": "ev_b364bf8efc7532cd01cafb6b6a51b04618715bdc7437babc8cd8a0c64ac6b2a7",
+    "operation": "inspect_macho",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-passwordFile.json": {
+    "evidence_id": "ev_75621052b6388c6c40356c35a11ffea2e44fd594acdcfc331766e62eeccb409f",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-plist.json": {
+    "evidence_id": "ev_e16a27fcb2589aba9b6743ddd36e75a98e321870fa746bfb285fd897eb5b96b3",
+    "operation": "inspect_plist",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-procedures.json": {
+    "evidence_id": "ev_39b05ff093792f0e907d711a1dd3975a4f64e4959bdaf701eb0b69b49d4144b9",
+    "operation": "search_procedures",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-signature.json": {
+    "evidence_id": "ev_0ebbb8c1f9af1aac740da2d2c1457c27e985f44087ef28e2e93dc78533a5df18",
+    "operation": "inspect_signature",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-taskLaunch.json": {
+    "evidence_id": "ev_160684e799cb1bc28f4f72fb159c7fe3855d0794c5b57e9f35c578380a717e96",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-taskPipes.json": {
+    "evidence_id": "ev_09b4f433a4f9b7a3e5eea0ccab525e1992f39d9d0d7b5f8a212acbb135798aaa",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  },
+  "rea-taskRouting.json": {
+    "evidence_id": "ev_47a685cd0aa0455c876ce9631a119e24b992554fbf1db19387c2694a6476c8f4",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "Keka",
+      "digest": {
+        "sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27"
+      },
+      "local_path": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+      "format": "mach-o-universal",
+      "architecture": "arm64"
+    }
+  }
+}

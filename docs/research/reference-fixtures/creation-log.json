@@ -1,0 +1,90 @@
+[
+  {
+    "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/keka7zz",
+    "executable_sha256": "2885552cce94f80fd95fac93eb5ecc4fdb19f3f7b7fa8180930bb71cbb0387d2",
+    "arguments": [
+      "a",
+      "-tzip",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-fixtures/keka-reference.zip",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-input"
+    ],
+    "exit_code": -5,
+    "archive_sha256": null
+  },
+  {
+    "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/keka7zz",
+    "executable_sha256": "2885552cce94f80fd95fac93eb5ecc4fdb19f3f7b7fa8180930bb71cbb0387d2",
+    "arguments": [
+      "a",
+      "-t7z",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-fixtures/keka-reference.7z",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-input"
+    ],
+    "exit_code": -5,
+    "archive_sha256": null
+  },
+  {
+    "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/keka7zz",
+    "executable_sha256": "2885552cce94f80fd95fac93eb5ecc4fdb19f3f7b7fa8180930bb71cbb0387d2",
+    "arguments": [
+      "a",
+      "-tzip",
+      "-pMacArchive-Test-2026",
+      "-mem=AES256",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-fixtures/keka-password.zip",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-input"
+    ],
+    "exit_code": -5,
+    "archive_sha256": null
+  },
+  {
+    "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+    "executable_sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27",
+    "working_directory": "/Users/ymy/Project/MacArchive/Evidence",
+    "arguments": [
+      "--ignore-file-access",
+      "--cli",
+      "7zz",
+      "a",
+      "-tzip",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-fixtures/keka-reference.zip",
+      "reference-input"
+    ],
+    "exit_code": 2,
+    "archive_sha256": null
+  },
+  {
+    "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+    "executable_sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27",
+    "working_directory": "/Users/ymy/Project/MacArchive/Evidence",
+    "arguments": [
+      "--ignore-file-access",
+      "--cli",
+      "7zz",
+      "a",
+      "-t7z",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-fixtures/keka-reference.7z",
+      "reference-input"
+    ],
+    "exit_code": 2,
+    "archive_sha256": null
+  },
+  {
+    "executable": "/Volumes/Keka/Keka.app/Contents/MacOS/Keka",
+    "executable_sha256": "51c730ac9b3d385434fff9e96d0881a458d1fb9513970fffe61b874068085d27",
+    "working_directory": "/Users/ymy/Project/MacArchive/Evidence",
+    "arguments": [
+      "--ignore-file-access",
+      "--cli",
+      "7zz",
+      "a",
+      "-tzip",
+      "-pMacArchive-Test-2026",
+      "-mem=AES256",
+      "/Users/ymy/Project/MacArchive/Evidence/reference-fixtures/keka-password.zip",
+      "reference-input"
+    ],
+    "exit_code": 2,
+    "archive_sha256": null
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "application": "/Users/ymy/Applications/Tuck.app",
+  "display_name": "Tuck",
+  "bundle_id": "local.ymy.MacArchive",
+  "executable_sha256": "4a6e65c25f4265949053aa7b77e3265efa74027c19850bf1dcbef8b1abbb3791",
+  "first_defaults_backup_unchanged": true,
+  "old_application_backed_up": true,
+  "finder_double_click_verified": true,
+  "finder_output_content_equal": true,
+  "handlers_after_rename": {
+    "com.rarlab.rar-archive": "local.ymy.MacArchive",
+    "org.7-zip.7-zip-archive": "local.ymy.MacArchive",
+    "org.gnu.gnu-zip-archive": "local.ymy.MacArchive",
+    "org.gnu.gnu-zip-tar-archive": "local.ymy.MacArchive",
+    "org.tukaani.tar-xz-archive": "local.ymy.MacArchive",
+    "org.tukaani.xz-archive": "local.ymy.MacArchive",
+    "public.bzip2-archive": "local.ymy.MacArchive",
+    "public.tar-archive": "local.ymy.MacArchive",
+    "public.tar-bzip2-archive": "local.ymy.MacArchive",
+    "public.zip-archive": "local.ymy.MacArchive"
+  },
+  "bundle_name_and_window_title": "Tuck"
+}

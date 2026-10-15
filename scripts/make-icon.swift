@@ -1,0 +1,32 @@
+import AppKit
+
+let image = NSImage(size: NSSize(width: 1024, height: 1024))
+image.lockFocus()
+let tile = NSBezierPath(roundedRect: NSRect(x: 40, y: 40, width: 944, height: 944), xRadius: 210, yRadius: 210)
+NSGradient(starting: NSColor(calibratedRed: 1, green: 0.96, blue: 0.87, alpha: 1), ending: NSColor(calibratedRed: 0.98, green: 0.87, blue: 0.69, alpha: 1))!.draw(in: tile, angle: -70)
+let shadow = NSShadow()
+shadow.shadowColor = NSColor(calibratedRed: 0.55, green: 0.24, blue: 0.07, alpha: 0.2)
+shadow.shadowBlurRadius = 28
+shadow.shadowOffset = NSSize(width: 0, height: -16)
+NSGraphicsContext.saveGraphicsState()
+shadow.set()
+let box = NSBezierPath(roundedRect: NSRect(x: 234, y: 238, width: 556, height: 540), xRadius: 86, yRadius: 86)
+NSGradient(starting: NSColor(calibratedRed: 0.99, green: 0.57, blue: 0.22, alpha: 1), ending: NSColor(calibratedRed: 0.87, green: 0.33, blue: 0.10, alpha: 1))!.draw(in: box, angle: -90)
+NSGraphicsContext.restoreGraphicsState()
+NSColor(calibratedRed: 1, green: 0.81, blue: 0.51, alpha: 1).setFill()
+NSBezierPath(roundedRect: NSRect(x: 455, y: 536, width: 114, height: 242), xRadius: 9, yRadius: 9).fill()
+NSColor(calibratedRed: 1, green: 0.94, blue: 0.81, alpha: 1).setFill()
+let arrow = NSBezierPath()
+arrow.move(to: NSPoint(x: 478, y: 516))
+arrow.line(to: NSPoint(x: 546, y: 516))
+arrow.line(to: NSPoint(x: 546, y: 416))
+arrow.line(to: NSPoint(x: 612, y: 416))
+arrow.line(to: NSPoint(x: 512, y: 320))
+arrow.line(to: NSPoint(x: 412, y: 416))
+arrow.line(to: NSPoint(x: 478, y: 416))
+arrow.close()
+arrow.fill()
+image.unlockFocus()
+let tiff = image.tiffRepresentation!
+let png = NSBitmapImageRep(data: tiff)!.representation(using: .png, properties: [:])!
+try png.write(to: URL(fileURLWithPath: CommandLine.arguments[1]))

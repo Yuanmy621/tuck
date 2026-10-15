@@ -1,0 +1,15 @@
+{
+  "handlers": {
+    "com.rarlab.rar-archive": "local.ymy.MacArchive",
+    "org.7-zip.7-zip-archive": "local.ymy.MacArchive",
+    "org.gnu.gnu-zip-archive": "local.ymy.MacArchive",
+    "org.gnu.gnu-zip-tar-archive": "local.ymy.MacArchive",
+    "org.tukaani.tar-xz-archive": "local.ymy.MacArchive",
+    "org.tukaani.xz-archive": "local.ymy.MacArchive",
+    "public.bzip2-archive": "local.ymy.MacArchive",
+    "public.tar-archive": "local.ymy.MacArchive",
+    "public.tar-bzip2-archive": "local.ymy.MacArchive",
+    "public.zip-archive": "local.ymy.MacArchive"
+  },
+  "ok": true
+}

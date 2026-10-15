@@ -1,0 +1,49 @@
+Building for production...
+[Planning deferred tasks]
+[18 / 26]
+[20 / 27] ArchiveCore
+[24 / 40]
+[28 / 40]
+[33 / 40] Tuck-product
+[40 / 108]
+[47 / 108]
+[51 / 108]
+[58 / 108]
+[61 / 108]
+[65 / 108]
+[68 / 108]
+[72 / 108]
+[78 / 108]
+[83 / 108]
+[84 / 108]
+[91 / 108]
+[95 / 108]
+[97 / 108]
+[100 / 108]
+[102 / 108]
+[104 / 108] Tuck-product
+[106 / 108] Tuck-product
+[107 / 108] Tuck-product
+Build complete! (6.98秒)
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_16x16.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_16x16@2x.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_32x32.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_32x32@2x.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_128x128.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_128x128@2x.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_256x256.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_256x256@2x.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_512x512.png
+/Users/ymy/Project/未命名文件夹/build/icon.png
+  /Users/ymy/Project/未命名文件夹/build/AppIcon.iconset/icon_512x512@2x.png
+/Users/ymy/Project/未命名文件夹/build/Tuck.app: replacing existing signature
+Built: /Users/ymy/Project/未命名文件夹/build/Tuck.app

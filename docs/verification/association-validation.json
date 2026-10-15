@@ -1,0 +1,31 @@
+{
+  "restore_matched_original": true,
+  "restored_handlers": {
+    "com.rarlab.rar-archive": "com.kingsoft.wpsoffice.mac",
+    "org.7-zip.7-zip-archive": "com.apple.archiveutility",
+    "org.gnu.gnu-zip-archive": "com.apple.archiveutility",
+    "org.gnu.gnu-zip-tar-archive": "com.apple.archiveutility",
+    "org.tukaani.tar-xz-archive": "com.apple.archiveutility",
+    "org.tukaani.xz-archive": "com.apple.archiveutility",
+    "public.bzip2-archive": "com.apple.archiveutility",
+    "public.tar-archive": "com.apple.archiveutility",
+    "public.tar-bzip2-archive": "com.apple.archiveutility",
+    "public.zip-archive": "com.apple.archiveutility"
+  },
+  "backup_sha256": "f456d5f62ce825f460c01ea07dc9e0f6f1113e6b5b6c1cb16bf9b5a10de05665",
+  "backup": "/Users/ymy/Library/Application Support/MacArchive/previous-defaults.json",
+  "verification": "Actual native settings button, per-type macOS confirmation dialogs, independent CLI handler query",
+  "default_handlers_verified": {
+    "com.rarlab.rar-archive": "local.ymy.MacArchive",
+    "org.7-zip.7-zip-archive": "local.ymy.MacArchive",
+    "org.gnu.gnu-zip-archive": "local.ymy.MacArchive",
+    "org.gnu.gnu-zip-tar-archive": "local.ymy.MacArchive",
+    "org.tukaani.tar-xz-archive": "local.ymy.MacArchive",
+    "org.tukaani.xz-archive": "local.ymy.MacArchive",
+    "public.bzip2-archive": "local.ymy.MacArchive",
+    "public.tar-archive": "local.ymy.MacArchive",
+    "public.tar-bzip2-archive": "local.ymy.MacArchive",
+    "public.zip-archive": "local.ymy.MacArchive"
+  },
+  "backup_preserved_on_reapply": true
+}

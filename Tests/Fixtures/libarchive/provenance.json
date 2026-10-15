@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/libarchive/libarchive/f81f50aa40fc4d94857ca1947da074ee67ea5675/libarchive/test/test_read_format_7zip_copy.7z.uu",
+    "source_file": "test_read_format_7zip_copy.7z.uu",
+    "source_sha256": "159ba2bd67aa046d01b7e08cbae994a1096be71a09039b6c9561559be81f353f",
+    "decoded_file": "test_read_format_7zip_copy.7z",
+    "decoded_sha256": "67a85f85950c4aaa524eb3f22be1fbac586e90c76de21e10fc1c2ce7685e04c2",
+    "decoded_bytes": 158
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libarchive/libarchive/f81f50aa40fc4d94857ca1947da074ee67ea5675/libarchive/test/test_read_format_7zip_lzma1.7z.uu",
+    "source_file": "test_read_format_7zip_lzma1.7z.uu",
+    "source_sha256": "4107a5daf0c06d229dde339829b63c83e3f55777c371c8b315ff647a17413fa1",
+    "decoded_file": "test_read_format_7zip_lzma1.7z",
+    "decoded_sha256": "cd4595cf136ed9857088103e0f16f41b0028ac8a93a6070450c45d55f0d04d74",
+    "decoded_bytes": 1491
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libarchive/libarchive/f81f50aa40fc4d94857ca1947da074ee67ea5675/libarchive/test/test_read_format_rar.rar.uu",
+    "source_file": "test_read_format_rar.rar.uu",
+    "source_sha256": "d1e75b4120995bce82fc4e72ebf8b80d18ea69fa34ac62de383b8393f92afa09",
+    "decoded_file": "test_read_format_rar.rar",
+    "decoded_sha256": "d421b86f6290aefad61b2a36737253b2b30fe27c156bd95abfc230f24fe0307e",
+    "decoded_bytes": 336
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libarchive/libarchive/f81f50aa40fc4d94857ca1947da074ee67ea5675/libarchive/test/test_read_format_7zip.c",
+    "source_file": "test_read_format_7zip.c",
+    "source_sha256": "da88992878ea0553c607b2658cdeb45e9fd41e0097cc17f0016c0a3337d1c515"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libarchive/libarchive/f81f50aa40fc4d94857ca1947da074ee67ea5675/libarchive/test/test_read_format_rar.c",
+    "source_file": "test_read_format_rar.c",
+    "source_sha256": "5c51b57b9d146169737ddcbca12c2fde9289f5d281965829a6dab42862a40ee9"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libarchive/libarchive/f81f50aa40fc4d94857ca1947da074ee67ea5675/libarchive/test/test_read_format_rar_subblock.rar.uu",
+    "source_file": "test_read_format_rar_subblock.rar.uu",
+    "source_sha256": "cadc9188981382fb25762128fdaf9b9b62d4cb5a0fe0838e3b16013b80f160d3",
+    "decoded_file": "test_read_format_rar_subblock.rar",
+    "decoded_sha256": "e871277670529329cc2c06f178ced453c560d03fd26c76614f42ef9c06b50af0",
+    "decoded_bytes": 166
+  }
+]

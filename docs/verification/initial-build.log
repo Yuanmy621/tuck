@@ -1,0 +1,29 @@
+Building for production...
+[3 / 7] ArchiveCore
+[5 / 8] ArchiveCore
+[6 / 9] MacArchive-product
+[8 / 9] MacArchive-product
+[11 / 11] MacArchive-product
+Build complete! (2.68秒)
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_16x16.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_16x16@2x.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_32x32.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_32x32@2x.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_128x128.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_128x128@2x.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_256x256.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_256x256@2x.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_512x512.png
+/Users/ymy/Project/MacArchive/build/icon.png
+  /Users/ymy/Project/MacArchive/build/AppIcon.iconset/icon_512x512@2x.png
+/Users/ymy/Project/MacArchive/build/轻压.app: replacing existing signature
+Installed: /Users/ymy/Applications/轻压.app
